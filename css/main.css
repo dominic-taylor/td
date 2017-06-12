@@ -4,11 +4,46 @@
   padding: 0;
 }
 
+.title{
+	font-family: 'Montserrat', sans-serif; 
+}
+.desc{
+	
+	text-align: center;
+}
+.header {
+	margin: auto;
+	font-size: 2em;
+	background-color: #FFA630;
+}
+
+.about {
+	background-color: #C1DFF0;
+}
+.products {
+	background-color: #FF3C38;
+}
+
+.examples {
+	background-color: #586BA4;
+}
+.contact {
+	background-color: #88CCF1;
+}
+.title {
+	font-size: 2em;
+	text-align: center;
+}
 .content{
 	width: 90%;
 	margin: auto;
 }
-
+.section {
+	min-height: 300px;
+}
+.masthead, .title{
+	padding: 100px 0;
+}
 @media screen and (min-width: 800px){
 	.content {
 	    max-width: 700px;
